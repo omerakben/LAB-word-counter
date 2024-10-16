@@ -1,0 +1,58 @@
+/* Body Styles */
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Center Title */
+  h1 {
+    text-align: center;
+  }
+  
+/* Textarea Styles */
+textarea {
+    width: 100%;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+  min-height: calc(1.5em * 20); 
+  }
+  
+  textarea::placeholder {
+    color: blue;
+    font-size: 1.5em;
+  }
+  
+  /* Button Styles */
+  .custom-button {
+    background-color: green !important;
+    color: white !important;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  /* Button Styles */
+  .custom-button {
+    background-color: green !important;
+    color: white !important;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: darkgreen;
+  }
+  
